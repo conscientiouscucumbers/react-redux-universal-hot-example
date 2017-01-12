@@ -84,8 +84,9 @@ export default class App extends Component {
               <LinkContainer to="/widgets">
                 <NavItem eventKey={2}>Widgets</NavItem>
               </LinkContainer>
-              <LinkContainer to="/survey">
-                <NavItem eventKey={3}>Survey</NavItem>
+              {/* change route name in url */}
+              <LinkContainer to="/signup">
+                <NavItem eventKey={3}>Signup</NavItem>
               </LinkContainer>
               <LinkContainer to="/pagination">
                 <NavItem eventKey={4}>Pagination</NavItem>
